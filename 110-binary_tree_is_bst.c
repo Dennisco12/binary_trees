@@ -5,7 +5,7 @@
  * smaller than the root
  *
  * @root: The value on the root node
- * @node: A pointer to the node to check
+ * @tree: A pointer to the node to check
  * Return: 1 if node is a right child and 0 if otherwise
  */
 int check_root_left(const binary_tree_t *tree, int root)
@@ -30,7 +30,7 @@ int check_root_left(const binary_tree_t *tree, int root)
  * check_root_right - This checks if all nodes in the right are
  * bigger than the root node
  *
- * @node - The werey we're checking
+ * @node: The werey we're checking
  * @root: The value on the root node we're comparing
  * Return: 1 if all nodes to the right place are correctly placed
  * and 0 if otherwise
